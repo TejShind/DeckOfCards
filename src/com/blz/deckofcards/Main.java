@@ -6,5 +6,6 @@ public class Main {
         DeckOfCards deckOfCard = new DeckOfCards();
         DeckOfCards.initializing();
         DeckOfCards.display();
+        Players.players();
     }
 }
