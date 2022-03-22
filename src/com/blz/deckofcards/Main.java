@@ -3,6 +3,8 @@ package com.blz.deckofcards;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Welcome to the Deck of Cards Game!");
+        DeckOfCards deckOfCard = new DeckOfCards();
+        DeckOfCards.initializing();
+        DeckOfCards.display();
     }
 }
